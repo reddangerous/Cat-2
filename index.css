@@ -1,0 +1,55 @@
+/* Styling for the table */
+#marks-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  #marks-table th, #marks-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #marks-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #marks-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #marks-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  #marks-table tbody td:nth-child(5) {
+    background-color: limegreen;
+    color: white;
+  }
+  
+  #marks-table tbody td:nth-child(1) {
+    background-color: cornflowerblue;
+    color: black;
+  }
+  
+  /* Styling for the button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the button */
+  #my-button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #my-button:hover {
+    background-color: dodgerblue;
+  }
+  
